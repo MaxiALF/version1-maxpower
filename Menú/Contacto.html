@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../multimedia/icons/Logo.JPG.png" type="image/x-icon">
+    <link rel="stylesheet" href="../temas.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <header class="black">
+        <nav>
+            <a href="../index.html"><img src="../multimedia/icons/Logo.JPG.png" alt="logo" width="90px" height="50px" class="Copyright"></a><br>
+
+                <ul class="right">
+                    <li class="itemh"><a href="../Menú/Galería.html">Galería</a></li>
+                    <li class="itemh"><a href="../Menú/Accesorios.html">Accesorios</a></li>
+                    <li class="itemh"><a href="../Menú/Contacto.html">Contacto</a></li>
+                    <li class="itemh"><a href="../Menú/Acerca de.html">Acerca de</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main id="post">
+        <h1>Contacto</h1>
+        <div>
+            <p class="parraf">
+                <strong>Si te quedó alguna duda acerca de nuestro trabajo o simplemente querés comunicarte con nosotros, te pedimos por favor que completes el siguiene formulario. Tu opinion nos ayuda a mejorar. </strong>
+            </p>
+        </div>
+        
+        <div class="contact">
+
+            <form action="enviar.php" method="post" enctype="text/plain">
+
+                <div class="esp">
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="ingresa tu nombre" required>
+                </div>
+                <div class="esp">
+                    <label for="Apellido">Apellido</label><br>
+                    <input type="text" id="apellido" name="apellido" placeholder="ingresa tu apellido" required>
+                </div>
+                <div class="esp">
+                    <label for="edad">Edad</label><br>
+                    <input type="number" id="edad" name="edad" placeholder="ingresa tu edad" required>
+                </div>
+                <div class="esp">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="ingresa tu email" required>
+                </div>
+                <div class="esp">
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="number" id="telefono" name="telefono" placeholder="ingresa tu número" required>
+                </div>
+                <div class="esp">
+                    <label for="fecha">Fecha</label><br>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="esp">
+                    <label for="comentarios">Comentarios</label><br>
+                <textarea name="comentarios" id="comentarios" cols="65" rows="10" placeholder="escribe tu comentario"></textarea>
+                </div>
+                <div class="esp">
+                    <input type="submit">
+                </div>
+            
+
+            </form>
+        </div>
+    </main>
+
+        <footer id="back">
+            <ul class="left">
+                <p><strong>Enlaces</strong></p>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./empleo.html">Empleo</a></li>
+                <li><a href="./Politicas de  privacidad">Politicas de  privacidad</a></li>
+                <li><a href="Enlaces">Enlaces</a></li>
+            </ul><br>
+            <ul class="right">
+                <li class="itemf"><a href="https://facebook.com" target="_blank"><img src="../multimedia/icons/Facebook_Logo.png" height="30px" width="30px"></a></li>
+                <li class="itemf"><a href="https://instagram.com" target="_blank"> <img src="../multimedia/icons/Instagram log.png" height="30px" width="30px"></a></li>
+                <li class="itemf"><a href="https://twitter.com/" target="_blank"><img src="../multimedia/icons/Twitter.png" height="30px" width="30px"></a></li>
+            </ul><br>
+                <p class="Copyright"><strong>Copyright 2023 - Mecánica Max power page. Todos los derechos reservados.</strong>.</p>
+        </footer>
+</body>
+
+</html>
