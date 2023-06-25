@@ -65,11 +65,17 @@ body{
 h1{
     background-color: rgb(3, 3, 61);
     font-family: vampire; 
-    font-size: 45px;
+    font-size: 50px;
     font-style: italic;
     color: aliceblue; 
     height: 50px;
     padding: 50px;
+}
+
+.photoPort{
+    background-image: url(./multimedia/imagenes/portada.png);
+    height: 300px;
+    width: 100%;
 }
 
 .parraf{
