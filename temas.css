@@ -39,6 +39,7 @@
 body{
     background-image: url(./multimedia/imagenes/pxfuel.jpg);
     background-size: auto;
+    margin-top: 100px;
 }
 
 .black{
@@ -46,6 +47,8 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .itemh{
@@ -68,7 +71,7 @@ body{
 h1{
     background-color: rgb(3, 3, 61);
     font-family: vampire; 
-    font-size: 50px;
+    font-size: 45px;
     font-style: italic;
     color: aliceblue; 
     height: 50px;
